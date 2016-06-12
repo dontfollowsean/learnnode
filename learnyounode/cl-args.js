@@ -1,13 +1,8 @@
-//console.log(process.argv);
-var addends  = process.argv.slice(2);
-
-//console.log(addends);
-
 var sum = 0;
 
-addends.forEach((num) => {
-	sum += parseInt(num, 10);
-});
+for(var i = 2; i < process.argv.length; i++){
+	sum += Number(process.argv[i]);
+}
 
 console.log(sum);
 
