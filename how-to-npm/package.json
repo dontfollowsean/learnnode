@@ -1,0 +1,17 @@
+{
+  "name": "@dontfollowsean/how-to-npm",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "This is a dummy npm module",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://myrepo.com/npm.git"
+  }
+}
